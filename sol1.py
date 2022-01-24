@@ -1,5 +1,5 @@
 ##brute force
-def twoSum(self, nums: List[int], target: int) -> List[int]:
+def tar(nums, target):
   for i in range(len(nums)):
     for j in range(i+1,len(nums)):
       if nums[i]+nums[j]==target:
@@ -10,7 +10,7 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
 
 #optimize
 
-def twoSum(nums: List[int], target: int):
+def tar(nums,target):
   d={}
   for i,v in enumerate(nums):
      remain=target-nums[i]
