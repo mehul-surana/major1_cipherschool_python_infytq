@@ -1,0 +1,2 @@
+# major1_cipherschool_python_infytq
+coding questions
